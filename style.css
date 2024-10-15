@@ -285,8 +285,8 @@ section.dark-mode {
   }
 
   #profile-video {
-    width: 325px; /* Adjust the width as needed */
-    height: 185px; /* Adjust the height as needed */
+    width: 300px; /* Adjust the width as needed */
+    height: 170px; /* Adjust the height as needed */
     border-radius: 10px;
   
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: add a box shadow */

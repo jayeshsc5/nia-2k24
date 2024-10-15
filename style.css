@@ -1,0 +1,310 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fde8e8; 
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 10px;
+    color: black;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: lightpink;
+   
+}
+
+section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+}
+
+.event {
+    margin-bottom: 20px;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.event h2 {
+    margin-bottom: 5px;
+    color: #e91e63;
+}
+
+.event p {
+    margin: 0;
+    
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: #fde8e8; 
+}
+
+header.light-mode {
+    background-color: lightpink;
+
+}
+
+section.light-mode {
+    background-color: #ffffff80;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+   
+}
+
+header.dark-mode {
+    background-color: #111;
+   color: #f06292;
+
+}
+
+section.dark-mode {
+    background-color: #222;
+    box-shadow: 0 0 5px #fff;
+}
+
+
+#newYearMessage {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#newYearMessage h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#newYearMessage h3 {
+    color: #555;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#newYearMessage p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+#newYearMessage p:last-child {
+    margin-bottom: 0;
+}
+
+#newYearMessage p:last-child,
+#newYearMessage h3:last-child {
+    margin-top: 20px;
+}
+
+#newYearMessage h3 br {
+    display: none;
+}
+
+
+.dark-mode-toggle {
+    height: 75px;
+    width:75px;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e91e63;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; }
+
+
+#message {
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+        color: #333;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        max-width: 400px;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+
+    #countdown {
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        color: #333;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        max-width: 400px;
+        font-family: 'Poppins', sans-serif;
+    
+        
+    }
+
+
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 10px;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f9d2d8; /* Light pink background color */
+        border-radius: 10px;
+      }
+      
+      /* Style the images inside the gallery */
+      .gallery img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a slight shadow */
+      }
+      
+      /* Apply hover effect to images */
+      .gallery img:hover {
+        transform: scale(1.05); /* Scale up the image on hover */
+        transition: transform 0.3s ease-in-out; /* Smooth transition */
+      }
+      #profile-photo-container {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      #profile-photo {
+        width: 375px; /* Adjust the width as needed */
+        height: 500px; /* Adjust the height as needed */
+        border-radius: 10px;
+        
+        box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 3); /* Optional: add a box shadow */
+      }
+      #profile-video {
+        width: 350px; /* Adjust the width as needed */
+        height: 200px; /* Adjust the height as needed */
+        border-radius: 10px;
+        
+        box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 3); /* Optional: add a box shadow */
+      }
+      #profile-photo-container-1 {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      #profile-photo-1 {
+        width: 375px; /* Adjust the width as needed */
+        height: 500px; /* Adjust the height as needed */
+        border-radius: 10px;
+        
+        box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 3); /* Optional: add a box shadow */
+      }
+
+
+
+      footer {
+    
+        text-align: center;
+        bottom: 10px;
+        width: 100%;
+    }
+    
+    footer.dark-mode {
+        color: #fff;
+    }
+
+@media only screen and (max-width: 600px){
+ 
+    #newYearMessage {
+        padding: 15px;
+    }
+
+    #newYearMessage h1 {
+        font-size: 24px;
+    }
+
+    #newYearMessage h3 {
+        font-size: 20px;
+    }
+
+    #newYearMessage p {
+        font-size: 18px;
+    }
+
+    .dark-mode-toggle{
+        height: 50px;
+        width:50px;
+        font-size: 20px;
+        bottom: 10px;
+        right: 10px;
+    }
+    section{
+        margin: 20px auto;
+    }
+
+    
+
+
+#profile-photo-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #profile-photo {
+    width: 225px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 10px;
+  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: add a box shadow */
+  }
+
+  #profile-video {
+    width: 325px; /* Adjust the width as needed */
+    height: 185px; /* Adjust the height as needed */
+    border-radius: 10px;
+  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: add a box shadow */
+  }
+
+
+  #profile-photo-container-1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #profile-photo-1 {
+    width: 225px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 10px;
+  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: add a box shadow */
+  }
+
+
+}
